@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f8f7f4;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  height: 90px;
+  width: auto;
+  max-width: 200px;
+  min-width: 120px;
+  object-fit: contain;
+  display: block;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #555;
+}
+
+.hero {
+  height: 90vh;
+  background: linear-gradient(to right, #f1efe9, #dbe7dd);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display';
+  font-size: 56px;
+}
+
+.badge {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #9bb5a1;
+  color: white;
+  border-radius: 20px;
+}
+
+.section {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.light {
+  background: #eef4ef;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.product-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  background: #f8f7f4;
+}
+
+.product-card h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  text-align: center;
+}
+
+.socials a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #9bb5a1;
+}
+
+footer {
+  background: #9bb5a1;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer-logo {
+  height: 100px;
+  width: auto;
+  max-width: 250px;
+  min-width: 150px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    height: 45px;
+    max-width: 150px;
+    min-width: 100px;
+  }
+  
+  .footer-logo {
+    height: 80px;
+    max-width: 200px;
+    min-width: 120px;
+  }
+  
+  .navbar {
+    padding: 15px 5%;
+  }
+  
+  .product-image {
+    height: 250px;
+  }
+  
+  .product-card {
+    padding: 15px;
+  }
+}
