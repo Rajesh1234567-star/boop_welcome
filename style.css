@@ -61,6 +61,23 @@ body {
   text-align: center;
 }
 
+.founders {
+  margin-top: 40px;
+}
+
+.founders h3 {
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.founders p {
+  font-size: 18px;
+  color: #555;
+  margin: 0;
+}
+
 .light {
   background: #eef4ef;
 }
@@ -93,6 +110,10 @@ body {
   border-radius: 15px;
   margin-bottom: 15px;
   background: #f8f7f4;
+}
+
+img[src="sleeping_bag_1.png"] {
+  object-fit: contain;
 }
 
 .product-card h3 {
